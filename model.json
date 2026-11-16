@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-16T15:20:42+01:00",
+ "generated_at": "2026-11-16T17:05:24+01:00",
  "data_date": "2026-11-16",
  "owner": "grok-model",
  "counterpart_file": "hermes.json (written only by the Hermes model-info bot on the user's PC)",
@@ -261,9 +261,15 @@
     "site": "aideals.app",
     "date": "16 Nov 08:22",
     "href": "https://aideals.app/"
+   },
+   {
+    "title": "AMD Token Lab: 10 points, 30-day validity, example models",
+    "site": "developer.amd.com",
+    "date": "16 Nov 17:00",
+    "href": "https://developer.amd.com/cloud-credit/"
    }
   ],
-  "last_updated": "2026-11-16T14:06:29+01:00"
+  "last_updated": "2026-11-16T17:05:21+01:00"
  },
  "picks": [
   {
@@ -271,14 +277,14 @@
    "model": "DeepSeek V4.1 Flash 1017",
    "effort": "low (max for hard tasks)",
    "score": "Terminal-Bench 38.5 (max, Claude Code) · Hermes Index 36.9 (high) · AA 28.6 (high), 32.6 (max)",
-   "cost": "Agent task: $0.224 Respan off-peak · $0.269 Ionstream Flex · $0.483 Nous undated deepseek-v4.1-flash (fleet standard) · $0.508 Particle Flex (cache price up today) · $0.560 Nous 1017 snapshot. AA task: $0.09–0.13 (high). Agent costs are for the max-effort TB run; low uses fewer tokens.",
-   "route": "Respan $0.06 / $0.24 per 1M, cache $0.0012 off-peak; $0.12 / $0.48 (cache $0.0024) during 07:00–11:00 and 02:00–05:00 CET ($0.448 per agent task); your own $4/day budget cap (adjustable). Best uncapped: OpenRouter pinned to ionstream/flex, $0.0775 / $0.2325, cache $0.0023. Particle Flex (your star) is now $0.03 / $0.25 with cache $0.015.",
-   "hermes": "/model respan/deepseek-v4.1-flash-1017 (off-peak), else OpenRouter pinned to ionstream/flex (re-point the deepseek-v4.1-flex star), then /reasoning low",
+   "cost": "Agent task: $0 on AMD Token Lab while your 10 points last (1 request at a time; expires 30 days from key creation) · $0.224 Respan off-peak · $0.269 Ionstream Flex · $0.483 Nous undated deepseek-v4.1-flash (fleet standard) · $0.508 Particle Flex (cache price up today) · $0.560 Nous 1017 snapshot. AA task: $0.09–0.13 (high). Agent costs are for the max-effort TB run; low uses fewer tokens.",
+   "route": "AMD Token Lab $0 while points last (Hermes; 1 request at a time). Respan $0.06 / $0.24 per 1M, cache $0.0012 off-peak; $0.12 / $0.48 (cache $0.0024) during 07:00–11:00 and 02:00–05:00 CET ($0.448 per agent task); your own $4/day budget cap (adjustable). Best uncapped: OpenRouter pinned to ionstream/flex, $0.0775 / $0.2325, cache $0.0023. Particle Flex (your star) is now $0.03 / $0.25 with cache $0.015.",
+   "hermes": "custom:tokenlab / DeepSeek-V4.1-Flash (while points last), else /model respan/deepseek-v4.1-flash-1017 (off-peak), else OpenRouter pinned to ionstream/flex (re-point the deepseek-v4.1-flex star), then /reasoning low",
    "opencode": "respan/deepseek-v4.1-flash-1017 (or opencode/deepseek-v4.1-flash-free for $0)",
    "why": "Cheapest route to a ~38% Terminal-Bench model. Nothing paid beats it on agent work until Sol. Since 16 Nov, Ionstream Flex ($0.269) is the uncapped choice; Particle Flex ($0.508) fell behind.",
    "source": "Model Market page",
-   "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "last_updated": "2026-11-16T17:05:24+01:00",
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "tier": "Balanced · free fallback",
@@ -292,7 +298,7 @@
    "why": "Try it first when DeepSeek fails: free, slightly higher Hermes Index. After the promo it is ~37x DeepSeek on Ionstream Flex per agent task, so drop it. No paid model between DeepSeek and Sol is worth it on agent work (Haiku 5.5 max: TB 40 at $0.62).",
    "source": "Model Market page",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "tier": "Strong · hard tasks",
@@ -306,7 +312,7 @@
    "why": "The one OpenAI step up with a real Hermes Index score, and on the agent-task frontier: +22 TB points over DeepSeek for about 3.4x the Ionstream Flex price.",
    "source": "Model Market page",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "tier": "Terra · when a task is failing",
@@ -320,7 +326,7 @@
    "why": "Better model than DeepSeek, not a cheaper one on agent work: about 5.6x DeepSeek on Ionstream Flex ($0.269) per task. Dominated by Sol on the agent basis (Sol scores more for less).",
    "source": "Model Market page",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   }
  ],
  "routes": [
@@ -353,7 +359,7 @@
    "notes": "under your own $4/day Respan budget cap (adjustable)",
    "source": "Respan model pages",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -384,7 +390,7 @@
    "notes": "your current star; cache read rose to $0.015 on 16 Nov (was $0.005)",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -415,7 +421,7 @@
    "notes": "under your own $4/day Respan budget cap (adjustable)",
    "source": "Respan model pages",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -446,7 +452,7 @@
    "notes": "your current star; cache read rose to $0.015 on 16 Nov (was $0.005)",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -477,7 +483,7 @@
    "notes": "best uncapped route: only Respan (under your own $4/day cap) is cheaper; needs a provider pin (ionstream/flex)",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -508,7 +514,7 @@
    "notes": "",
    "source": "Nous Portal /v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -539,7 +545,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -570,7 +576,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -601,7 +607,7 @@
    "notes": "under your own $4/day Respan budget cap (adjustable)",
    "source": "Respan model pages",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -632,7 +638,7 @@
    "notes": "your current star; cache read rose to $0.015 on 16 Nov (was $0.005)",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -663,7 +669,7 @@
    "notes": "best uncapped route: only Respan (under your own $4/day cap) is cheaper; needs a provider pin (ionstream/flex)",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -694,7 +700,7 @@
    "notes": "Nous 1017 snapshot, $0.560 per agent task; your fleet standard is the Nous undated route ($0.483)",
    "source": "Nous Portal /v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -725,7 +731,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -756,7 +762,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash 1017",
@@ -787,7 +793,38 @@
    "notes": "OpenCode app only; end date unannounced",
    "source": "OpenCode Zen /zen/v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
+  },
+  {
+   "model": "DeepSeek V4.1 Flash 1017",
+   "effort": "max",
+   "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+   "provider": "amd-tokenlab",
+   "pin": null,
+   "price_in": 0,
+   "price_out": 0,
+   "cache_read": 0,
+   "agent_cost": 0.0,
+   "agent_cost_formula": 0.0,
+   "agent_cost_source": "free",
+   "aa_cost": 0,
+   "scores": {
+    "aa": 32.6,
+    "tb": 38.48,
+    "hermes": null
+   },
+   "latency": null,
+   "throughput": null,
+   "uptime": null,
+   "kind": "free",
+   "apps": "H",
+   "capped": false,
+   "status_agent": "free route",
+   "end_date": null,
+   "notes": "10 Token Lab points, 30 days from key creation (optional one-time 15-day extension in the last 5 days, secondary sources). Hermes measured 1 request in flight (429 model_concurrency_rate_limit_exceeded). Paid baseline for these weights: River $0.323 per agent task. API id DeepSeek-V4.1-Flash (card DeepSeek-V4.1-Flash-1017).",
+   "source": "AMD Token Lab / developer.amd.com/cloud-credit",
+   "last_updated": "2026-11-16T17:05:21+01:00",
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "DeepSeek V4.1 Flash (undated)",
@@ -818,7 +855,7 @@
    "notes": "fleet standard, $0.483 per agent task: priced on the 1017 snapshot's TB 4.1 max profile (no TB run on the undated weights, so not plotted); AA columns are the 1017 high variant",
    "source": "Nous Portal /v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Muse Ember",
@@ -849,7 +886,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Muse Ember",
@@ -880,7 +917,7 @@
    "notes": "no Hermes Index score yet",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6.1 Terra",
@@ -911,7 +948,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6.1 Terra",
@@ -942,7 +979,7 @@
    "notes": "Flex = slower, can queue; not on Hermes Index yet",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6.1 Terra",
@@ -973,7 +1010,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6.1 Terra",
@@ -1004,7 +1041,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Grok 4.7",
@@ -1035,7 +1072,7 @@
    "notes": "free via your Grok plan until ~10 Jan 2027; Hermes only",
    "source": "user's Grok plan",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Grok 4.7",
@@ -1066,7 +1103,7 @@
    "notes": "free via your Grok plan until ~10 Jan 2027; Hermes only; after the promo ~$9.86/agent task at list $2/$6",
    "source": "user's Grok plan",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Grok 4.7",
@@ -1097,7 +1134,7 @@
    "notes": "paid list price",
    "source": "xai|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Tencent Hy4",
@@ -1128,7 +1165,7 @@
    "notes": "Hermes Index frontier; Nous price 80% below Tencent list, end date not shown",
    "source": "Nous Portal /v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Tencent Hy4",
@@ -1159,7 +1196,7 @@
    "notes": "fp4 quantized",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Haiku 5.5",
@@ -1190,7 +1227,7 @@
    "notes": "",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Haiku 5.5",
@@ -1221,7 +1258,7 @@
    "notes": "",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Haiku 5.5",
@@ -1252,7 +1289,7 @@
    "notes": "",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Haiku 5.5",
@@ -1283,7 +1320,7 @@
    "notes": "",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6 Luna",
@@ -1314,7 +1351,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6 Luna",
@@ -1345,7 +1382,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6.1 Sol",
@@ -1376,7 +1413,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6.1 Sol",
@@ -1407,7 +1444,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6.1 Sol",
@@ -1438,7 +1475,7 @@
    "notes": "needs an OpenRouter pin to openai/flex",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6.1 Sol",
@@ -1469,7 +1506,7 @@
    "notes": "/model nous/openai/gpt-6.1-sol",
    "source": "Nous Portal /v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Opus 5.5",
@@ -1500,7 +1537,7 @@
    "notes": "",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Opus 5.5",
@@ -1531,7 +1568,7 @@
    "notes": "",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Gemini 4 Hydrogen",
@@ -1562,7 +1599,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Gemini 4 Hydrogen",
@@ -1593,7 +1630,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Gemini 4 Hydrogen",
@@ -1624,7 +1661,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Gemini 4 Hydrogen",
@@ -1655,7 +1692,7 @@
    "notes": "rate-limited; Google uses free-tier data",
    "source": "Google Gemini pricing",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "MiniMax M3.1 Flash",
@@ -1686,7 +1723,7 @@
    "notes": "OpenCode app only; end date unannounced",
    "source": "OpenCode Zen /zen/v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "MiniMax M3.1 Flash",
@@ -1717,7 +1754,7 @@
    "notes": "Respan's 20% discount ended 16 Nov",
    "source": "Respan model pages",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GLM-5.3 Flash",
@@ -1748,7 +1785,7 @@
    "notes": "under your own $4/day Respan budget cap (adjustable)",
    "source": "Respan model pages",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GLM-5.3 Flash",
@@ -1779,7 +1816,38 @@
    "notes": "OpenCode app only; end date unannounced",
    "source": "OpenCode Zen /zen/v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
+  },
+  {
+   "model": "GLM-5.3 Flash",
+   "effort": "default",
+   "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+   "provider": "amd-tokenlab",
+   "pin": null,
+   "price_in": 0,
+   "price_out": 0,
+   "cache_read": 0,
+   "agent_cost": 0.0,
+   "agent_cost_formula": 0.0,
+   "agent_cost_source": "free",
+   "aa_cost": 0,
+   "scores": {
+    "aa": 27.8,
+    "tb": 36.97,
+    "hermes": 34.95
+   },
+   "latency": null,
+   "throughput": null,
+   "uptime": null,
+   "kind": "free",
+   "apps": "H",
+   "capped": false,
+   "status_agent": "free route",
+   "end_date": null,
+   "notes": "Named on AMD's official Token Lab cloud-credit page; not in the 13 Nov firsthand 10-model catalog (may have been added). Unauthenticated /v1/models returns 401, so the exact id was not re-listed today. Paid Respan 50% off is $0.568 per agent task (capped). API id likely GLM-5.3-Flash.",
+   "source": "AMD Token Lab / developer.amd.com/cloud-credit",
+   "last_updated": "2026-11-16T17:05:21+01:00",
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "MiMo V2.6 Pro",
@@ -1810,7 +1878,7 @@
    "notes": "",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "MiMo V2.6 Flash",
@@ -1841,7 +1909,7 @@
    "notes": "OpenCode app only; end date unannounced",
    "source": "OpenCode Zen /zen/v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "MiMo V2.6 Flash",
@@ -1872,7 +1940,7 @@
    "notes": "",
    "source": "Nous Portal /v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Inkling 2 Small",
@@ -1903,7 +1971,7 @@
    "notes": "OpenRouter :free works in Hermes; Terminal-Bench only 13%",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Ling 3.1 Flash",
@@ -1934,7 +2002,7 @@
    "notes": "",
    "source": "Nous Portal /v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Sonnet 5.5",
@@ -1965,7 +2033,7 @@
    "notes": "Respan's 15% discount ended 16 Nov",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Gemini 4 Carbon",
@@ -1996,7 +2064,7 @@
    "notes": "promo $2 / $10 through 30 Nov; $4 / $20 (cache $0.20) from 1 Dec, about 2x these costs",
    "source": "google|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Gemini 4 Carbon",
@@ -2027,7 +2095,7 @@
    "notes": "Flex = half the promo price, can queue; Flex price after 1 Dec not shown",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Gemini 4 Argon",
@@ -2058,7 +2126,7 @@
    "notes": "limited rollout; $4 / $20 from 1 Dec",
    "source": "google|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Gemini 4 Argon",
@@ -2089,7 +2157,7 @@
    "notes": "limited rollout; promo $2 / $10 to 30 Nov, $4 / $20 from 1 Dec (about $9.95 per AA task). Terminal-Bench 57.1 is version 4.0, not 4.1, so not on the agent axis. No free tier",
    "source": "google|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Gemini 4 Argon",
@@ -2120,7 +2188,7 @@
    "notes": "Flex = half the promo price, can queue; needs a pin to google-ai-studio/flex",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Qwen4 Max",
@@ -2151,7 +2219,7 @@
    "notes": "new 16 Nov; reasoning on by default (AA does not show the effort level); no Hermes Index or Terminal-Bench score yet",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Kimi K3.1 Pro",
@@ -2182,7 +2250,7 @@
    "notes": "Respan's 30% discount ended 16 Nov; same price via Pareto Inference; counts toward your own $4/day Respan budget cap",
    "source": "Respan model pages",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Qwen3.8 Max 0902",
@@ -2213,7 +2281,7 @@
    "notes": "Respan's 30% discount ended 16 Nov",
    "source": "Respan model pages",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "GPT-6 Astra",
@@ -2244,7 +2312,7 @@
    "notes": "needs a pin to openai/flex; Respan's 18% discount ended 16 Nov",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Fable 5.2",
@@ -2275,7 +2343,7 @@
    "notes": "AA task cost is AA's published figure at list $8 / $40; Respan has it 15% off this week",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Fable 5.2",
@@ -2306,7 +2374,7 @@
    "notes": "no Hermes Index score yet",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Claude Fable 5.2",
@@ -2337,7 +2405,7 @@
    "notes": "AA #1; Terminal-Bench 4.1 65.8 (max, Claude Code) ties Opus 5.5 at about 3.5x its agent-task cost; TB's own $49.98 includes cache writes",
    "source": "anthropic|openrouter",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Ling 3.2 Flash",
@@ -2368,7 +2436,7 @@
    "notes": "no score yet (no AA page, Hermes Index or TB 4.1 entry on 16 Nov); 1M context; OpenRouter shows no end date",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "ERNIE 5.5 Flash Preview",
@@ -2399,7 +2467,7 @@
    "notes": "no score yet; preview, 1M context; OpenRouter shows no end date",
    "source": "OpenRouter /api/v1 endpoints",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Tencent Hy4 Flash",
@@ -2430,7 +2498,7 @@
    "notes": "no score yet; new 16 Nov; not on OpenRouter or Nous yet; X posts quote $0.07 / $0.281 per 1M list (unconfirmed)",
    "source": "OpenCode Zen /zen/v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "model": "Qwen4-Max-Preview",
@@ -2461,7 +2529,100 @@
    "notes": "no score yet; superseded by Qwen4 Max (GA 16 Nov); priced inside the Token Plan, no per-token price published; Hermes/OpenCode support not checked",
    "source": "qwencloud",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
+  },
+  {
+   "model": "Qwen3.8 27B",
+   "effort": "xhigh",
+   "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+   "provider": "amd-tokenlab",
+   "pin": null,
+   "price_in": 0,
+   "price_out": 0,
+   "cache_read": 0,
+   "agent_cost": null,
+   "agent_cost_formula": null,
+   "agent_cost_source": "not measured",
+   "aa_cost": 0,
+   "scores": {
+    "aa": 20.1,
+    "tb": null,
+    "hermes": null
+   },
+   "latency": null,
+   "throughput": null,
+   "uptime": null,
+   "kind": "free",
+   "apps": "H",
+   "capped": false,
+   "status_agent": "free route",
+   "end_date": null,
+   "notes": "AA 20.1 (xhigh), 17.5 (medium), 15.7 (low), 10.0 (non-reasoning), fetched 16 Nov 17:00 from AA. No Hermes Index or Terminal-Bench 4.1, so agent-task cost is not measured. Paid AA task $3.53 at AA list $0.50 / $3.00. API id Qwen3.8-27B.",
+   "source": "AMD Token Lab / developer.amd.com/cloud-credit",
+   "last_updated": "2026-11-16T17:05:21+01:00",
+   "checked_at": "2026-11-16T17:05:24+01:00"
+  },
+  {
+   "model": "DeepSeek V4 Flash 0731",
+   "effort": "max",
+   "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+   "provider": "amd-tokenlab",
+   "pin": null,
+   "price_in": 0,
+   "price_out": 0,
+   "cache_read": 0,
+   "agent_cost": null,
+   "agent_cost_formula": null,
+   "agent_cost_source": "not measured",
+   "aa_cost": 0,
+   "scores": {
+    "aa": null,
+    "tb": null,
+    "hermes": null
+   },
+   "latency": null,
+   "throughput": null,
+   "uptime": null,
+   "kind": "free",
+   "apps": "H",
+   "capped": false,
+   "status_agent": "free route",
+   "end_date": null,
+   "notes": "No current AA Intelligence Index (AA marks it deprecated in favour of V4.1 Flash; page shows N/A). No Hermes Index or Terminal-Bench 4.1, so agent-task cost is not measured. API id DeepSeek-V4-Flash (card DeepSeek-V4-Flash-0731).",
+   "source": "AMD Token Lab / developer.amd.com/cloud-credit",
+   "last_updated": "2026-11-16T17:05:21+01:00",
+   "checked_at": "2026-11-16T17:05:24+01:00"
+  },
+  {
+   "model": "Gemma 4 31B IT",
+   "effort": "reasoning",
+   "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+   "provider": "amd-tokenlab",
+   "pin": null,
+   "price_in": 0,
+   "price_out": 0,
+   "cache_read": 0,
+   "agent_cost": null,
+   "agent_cost_formula": null,
+   "agent_cost_source": "not measured",
+   "aa_cost": 0,
+   "scores": {
+    "aa": 4.4,
+    "tb": null,
+    "hermes": null
+   },
+   "latency": null,
+   "throughput": null,
+   "uptime": null,
+   "kind": "free",
+   "apps": "H",
+   "capped": false,
+   "status_agent": "free route",
+   "end_date": null,
+   "notes": "AA 4.4 (reasoning), fetched 16 Nov 17:00 from AA; non-reasoning has no AA score. No Hermes Index or Terminal-Bench 4.1, so agent-task cost is not measured. API id Gemma-4-31B-IT.",
+   "source": "AMD Token Lab / developer.amd.com/cloud-credit",
+   "last_updated": "2026-11-16T17:05:21+01:00",
+   "checked_at": "2026-11-16T17:05:24+01:00"
   }
  ],
  "deals": [
@@ -2473,7 +2634,17 @@
    "src": "Your Grok plan (local_deals.json)",
    "source": "Your Grok plan (local_deals.json)",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
+  },
+  {
+   "title": "AMD Token Lab (free dev credits)",
+   "status": "Free",
+   "dates": "30 days from key creation (your exact expiry unknown) · one 15-day extension in the last 5 days (secondary sources)",
+   "detail": "10 Token Lab points for members of the free AMD AI Developer Program (global, no card). OpenAI-compatible API at https://api.tokenlab.amd.com/v1. Best model there: DeepSeek V4.1 Flash 1017 (same weights as your fleet, $0 while points last vs River $0.323 paid). Also: Qwen3.8-27B, Gemma-4-31B-IT, DeepSeek V4 Flash 0731, three MiniCPM models, and decision models d3, d3-flash and Clef. AMD's official cloud-credit page also names GLM-5.3 among Token Lab models (not in a 13 Nov firsthand 10-model catalog). No Qwen4 / Qwen4 Max / Qwen4-Max-Preview. Hermes measured 1 request at a time (429 model_concurrency_rate_limit_exceeded); secondary sources also quote 20 requests/min, which is not on official AMD pages. GET /v1/models requires a key (401 without one). Program end date not announced; requests fail when points or the 30 days run out.",
+   "src": "https://developer.amd.com/cloud-credit/",
+   "source": "https://developer.amd.com/cloud-credit/",
+   "last_updated": "2026-11-16T17:05:21+01:00",
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "OpenCode Zen free models",
@@ -2483,7 +2654,7 @@
    "src": "https://opencode.ai/zen/v1/models",
    "source": "https://opencode.ai/zen/v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "Gemini 4 Hydrogen free tier",
@@ -2493,7 +2664,7 @@
    "src": "https://ai.google.dev/gemini-api/docs/pricing",
    "source": "https://ai.google.dev/gemini-api/docs/pricing",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "Gemini 4 Carbon + Argon promo price",
@@ -2503,7 +2674,7 @@
    "src": "https://ai.google.dev/gemini-api/docs/pricing",
    "source": "https://ai.google.dev/gemini-api/docs/pricing",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "OpenRouter discounted collection",
@@ -2513,7 +2684,7 @@
    "src": "https://openrouter.ai/collections/discounted-models",
    "source": "https://openrouter.ai/collections/discounted-models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "OpenCode Go",
@@ -2523,7 +2694,7 @@
    "src": "https://opencode.ai/docs/go/",
    "source": "https://opencode.ai/docs/go/",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "Respan: DeepSeek V4.1 Flash 1017",
@@ -2533,7 +2704,7 @@
    "src": "https://www.respan.ai/models/deepseek-v4.1-flash-1017",
    "source": "https://www.respan.ai/models/deepseek-v4.1-flash-1017",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "Nous Portal: Tencent Hy4",
@@ -2543,7 +2714,7 @@
    "src": "https://inference-api.nousresearch.com/v1/models",
    "source": "https://inference-api.nousresearch.com/v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "Other Respan discounts this week",
@@ -2553,7 +2724,7 @@
    "src": "https://www.respan.ai/models",
    "source": "https://www.respan.ai/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "New OpenRouter :free models",
@@ -2563,7 +2734,7 @@
    "src": "https://openrouter.ai/api/v1/models",
    "source": "https://openrouter.ai/api/v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "Nous Portal free list",
@@ -2573,7 +2744,7 @@
    "src": "https://inference-api.nousresearch.com/v1/models",
    "source": "https://inference-api.nousresearch.com/v1/models",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "Qwen4-Max-Preview",
@@ -2583,7 +2754,7 @@
    "src": "https://x.com/zg0820/status/2121112240363622507",
    "source": "https://x.com/zg0820/status/2121112240363622507",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "Respan Gemini 4 Carbon :free",
@@ -2593,7 +2764,7 @@
    "src": "https://x.com/idlenyro/status/2120839892531888365",
    "source": "https://x.com/idlenyro/status/2120839892531888365",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   },
   {
    "title": "Respan Muse Ember :free",
@@ -2603,7 +2774,7 @@
    "src": "https://www.respan.ai/models/muse-ember",
    "source": "https://www.respan.ai/models/muse-ember",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   }
  ],
  "settings": [
@@ -2613,7 +2784,7 @@
    "source": "user (chat)",
    "note": "user-set budget cap on the user's own Respan project, adjustable; not a Respan limit",
    "last_updated": "2026-11-16T14:06:29+01:00",
-   "checked_at": "2026-11-16T15:20:42+01:00"
+   "checked_at": "2026-11-16T17:05:24+01:00"
   }
  ],
  "expiring_soon": [
@@ -2795,6 +2966,20 @@
   ],
   "new_promos": [
    {
+    "model": "DeepSeek V4.1 Flash 1017",
+    "effort": "max",
+    "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+    "kind": "free",
+    "end": null
+   },
+   {
+    "model": "GLM-5.3 Flash",
+    "effort": "default",
+    "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+    "kind": "free",
+    "end": null
+   },
+   {
     "model": "Gemini 4 Carbon",
     "effort": "high",
     "route": "Any (Google promo to 30 Nov)",
@@ -2856,6 +3041,27 @@
     "route": "QwenCloud Token Plan (preview)",
     "kind": "discount",
     "end": "2026-11-25"
+   },
+   {
+    "model": "Qwen3.8 27B",
+    "effort": "xhigh",
+    "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+    "kind": "free",
+    "end": null
+   },
+   {
+    "model": "DeepSeek V4 Flash 0731",
+    "effort": "max",
+    "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+    "kind": "free",
+    "end": null
+   },
+   {
+    "model": "Gemma 4 31B IT",
+    "effort": "reasoning",
+    "route": "AMD Token Lab (free dev credits, 1 request at a time, expires 30 days from key creation — date unknown)",
+    "kind": "free",
+    "end": null
    }
   ],
   "ended_promos": [
@@ -2898,9 +3104,12 @@
   ],
   "new_models": [
    "Claude Fable 5.2",
+   "DeepSeek V4 Flash 0731",
    "ERNIE 5.5 Flash Preview",
    "Gemini 4 Argon",
+   "Gemma 4 31B IT",
    "Ling 3.2 Flash",
+   "Qwen3.8 27B",
    "Qwen4 Max",
    "Qwen4-Max-Preview",
    "Tencent Hy4 Flash"
@@ -2915,6 +3124,7 @@
   ],
   "against": "2026-11-15",
   "notes": [
+   "16 Nov 17:05 · Added AMD Token Lab as a temporary free route (10 points, 30 days from key creation, 1 request at a time). Best model there is DeepSeek V4.1 Flash 1017 at $0 vs River $0.323 paid. Qwen4 Max is not in the Token Lab catalog.",
    "16 Nov 12:45 · Morph (DeepSeek 1017) down again to $0.074 / $0.66 / $0.007 (agent task $0.584, was $0.677). DeepInfra Flex is failing on OpenRouter right now (3% uptime in the last 30 min).",
    "16 Nov · Particle AI Flex (DeepSeek 1017): cache read $0.015, was $0.005 (in/out unchanged at $0.03 / $0.25). Agent task $0.508, was $0.278. Particle standard cache also tripled to $0.03.",
    "16 Nov · Respan DeepSeek 1017: still 60% off, but its pricing now shows peak windows at double price ($0.12 / $0.48, cache $0.0024) during 06:00–10:00 and 01:00–04:00 UTC (07:00–11:00 and 02:00–05:00 CET). DeepSeek's own OpenRouter endpoint showed $0.30 / $1.20 at 08:22 CET, inside that window.",
