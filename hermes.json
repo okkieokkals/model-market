@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-16T19:48:46+01:00",
+ "generated_at": "2026-11-16T20:02:39+01:00",
  "owner": "hermes-model-info",
  "counterpart_file": "model.json",
  "public_url": "https://raw.githubusercontent.com/okkieokkals/model-market/main/hermes.json",
@@ -14,7 +14,7 @@
   "models": 1042,
   "routes": 2011,
   "scored_models": 27,
-  "generated": "2026-11-16T18:41:43+00:00",
+  "generated": "2026-11-16T18:54:11+00:00",
   "sources": {
    "hermes_index": 20,
    "tbench": 59,
@@ -25,8 +25,8 @@
    "telnyx": 12,
    "gemini": 14
   },
-  "checked_at": "2026-11-16T19:48:46+01:00",
-  "last_updated": "2026-11-16T19:48:46+01:00"
+  "checked_at": "2026-11-16T20:02:39+01:00",
+  "last_updated": "2026-11-16T20:02:39+01:00"
  },
  "fleet": [
   {
@@ -40,8 +40,8 @@
    ],
    "fallback_count": 2,
    "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:34+01:00",
-   "last_updated": "2026-11-16T19:48:34+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "alucord",
@@ -54,8 +54,8 @@
    ],
    "fallback_count": 2,
    "probe_ok": false,
-   "checked_at": "2026-11-16T19:48:34+01:00",
-   "last_updated": "2026-11-16T19:48:34+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "brainy",
@@ -77,8 +77,8 @@
    ],
    "fallback_count": 11,
    "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:34+01:00",
-   "last_updated": "2026-11-16T19:48:34+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "crap",
@@ -90,9 +90,9 @@
     "nous:deepseek/deepseek-v4.1-flash"
    ],
    "fallback_count": 2,
-   "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "probe_ok": false,
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "dealer",
@@ -104,9 +104,9 @@
     "nous:deepseek/deepseek-v4.1-flash"
    ],
    "fallback_count": 2,
-   "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "probe_ok": false,
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "dsworkie",
@@ -118,14 +118,14 @@
     "nous:deepseek/deepseek-v4.1-flash"
    ],
    "fallback_count": 2,
-   "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "probe_ok": false,
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "model-info",
-   "model": "DeepSeek-V4.1-Flash",
-   "provider": "custom:tokenlab",
+   "model": "google/gemini-4-hydrogen",
+   "provider": "vertex",
    "pin": null,
    "fallbacks": [
     "custom:deepseek-v4.1-flash-1017",
@@ -133,8 +133,8 @@
    ],
    "fallback_count": 2,
    "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "pal",
@@ -147,8 +147,8 @@
    ],
    "fallback_count": 2,
    "probe_ok": false,
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "pcrawl",
@@ -160,9 +160,9 @@
     "nous:deepseek/deepseek-v4.1-flash"
    ],
    "fallback_count": 2,
-   "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "probe_ok": false,
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "second-brain",
@@ -174,9 +174,9 @@
     "nous:deepseek/deepseek-v4.1-flash"
    ],
    "fallback_count": 2,
-   "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "probe_ok": false,
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "seer",
@@ -188,14 +188,14 @@
     "nous:deepseek/deepseek-v4.1-flash"
    ],
    "fallback_count": 2,
-   "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "probe_ok": false,
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "profile": "workie",
-   "model": "google/gemini-4-hydrogen",
-   "provider": "vertex",
+   "model": "gemini-4-hydrogen",
+   "provider": "gemini",
    "pin": null,
    "fallbacks": [
     "gemini:gemini-3.8-flash",
@@ -211,9 +211,9 @@
     "nous:deepseek/deepseek-v4.1-flash"
    ],
    "fallback_count": 11,
-   "probe_ok": true,
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "probe_ok": false,
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   }
  ],
  "measured_costs": [
@@ -228,8 +228,8 @@
    "cache_hit": 0.9432,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash",
@@ -242,8 +242,8 @@
    "cache_hit": 0.9679,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -256,8 +256,8 @@
    "cache_hit": 0.9631,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "openai/gpt-6.1-sol",
@@ -270,8 +270,8 @@
    "cache_hit": 0.9998,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "gemini-4-hydrogen",
@@ -284,8 +284,8 @@
    "cache_hit": 0.1966,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -298,22 +298,22 @@
    "cache_hit": 0.9068,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "google/gemini-4-hydrogen",
    "route": "vertex",
-   "usd_per_task": 0.0172,
-   "usd_total": 0.3617,
-   "n_tasks": 21,
-   "input_tokens": 227075,
-   "output_tokens": 1029,
-   "cache_hit": 0.4405,
+   "usd_per_task": 0.0174,
+   "usd_total": 0.3831,
+   "n_tasks": 22,
+   "input_tokens": 241317,
+   "output_tokens": 1034,
+   "cache_hit": 0.4256,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -326,8 +326,8 @@
    "cache_hit": 0.8553,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "xiaomi/mimo-v2.6-flash",
@@ -340,8 +340,8 @@
    "cache_hit": 0.1698,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "gemini-3.8-flash",
@@ -354,8 +354,8 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "google/gemini-3.8-flash",
@@ -368,8 +368,8 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash",
@@ -382,8 +382,8 @@
    "cache_hit": 0.1518,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "meta/muse-ember:free",
@@ -396,8 +396,8 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "stepfun/step-3.7-flash:free",
@@ -410,8 +410,8 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "baidu/ernie-5.5-flash-preview:free",
@@ -424,8 +424,8 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "gemini-4-carbon",
@@ -438,8 +438,8 @@
    "cache_hit": 0.9228,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "DeepSeek-V4.1-Flash",
@@ -452,22 +452,22 @@
    "cache_hit": 0.9756,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "deepseek-v4.1-flash-1017",
    "route": "custom",
    "usd_per_task": 0.0,
    "usd_total": 0.0,
-   "n_tasks": 277,
-   "input_tokens": 1315259,
-   "output_tokens": 218472,
-   "cache_hit": 0.9763,
+   "n_tasks": 350,
+   "input_tokens": 1585129,
+   "output_tokens": 263605,
+   "cache_hit": 0.9748,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "DeepSeek-V4.1-Flash",
@@ -480,22 +480,22 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "deepseek-v4.1-flash",
    "route": "custom",
    "usd_per_task": 0.0,
    "usd_total": 0.0,
-   "n_tasks": 354,
-   "input_tokens": 775894,
-   "output_tokens": 145276,
-   "cache_hit": 0.9279,
+   "n_tasks": 539,
+   "input_tokens": 1039668,
+   "output_tokens": 215265,
+   "cache_hit": 0.9378,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "deepseek-v4.1-flash-1017",
@@ -508,8 +508,8 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -522,8 +522,8 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "grok-4.7",
@@ -536,8 +536,8 @@
    "cache_hit": 0.941,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   },
   {
    "model": "stepfun/step-3.7-flash:free",
@@ -550,11 +550,11 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-16T19:48:35+01:00",
-   "last_updated": "2026-11-16T19:48:35+01:00"
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   }
  ],
- "respan_spend_today_usd": 0.042717,
+ "respan_spend_today_usd": 0.025056,
  "probes": [
   {
    "route": "Respan (60% gateway discount)",
@@ -569,14 +569,14 @@
    ],
    "http_status": 200,
    "ttft_s": null,
-   "total_s": 1.25,
+   "total_s": 1.23,
    "runs": 1,
    "tool_call_ok": true,
    "verdict": "usable",
    "error": null,
-   "at": "2026-11-16T19:48:24+01:00",
-   "checked_at": "2026-11-16T19:48:24+01:00",
-   "last_updated": "2026-11-16T19:48:24+01:00"
+   "at": "2026-11-16T20:00:22+01:00",
+   "checked_at": "2026-11-16T20:00:22+01:00",
+   "last_updated": "2026-11-16T20:00:22+01:00"
   },
   {
    "route": "OpenRouter River",
@@ -591,14 +591,14 @@
    ],
    "http_status": 403,
    "ttft_s": null,
-   "total_s": 0.25,
+   "total_s": 0.28,
    "runs": 1,
    "tool_call_ok": false,
    "verdict": "unreachable",
    "error": "{\"error\":{\"message\":\"Key limit exceeded (monthly limit). Manage it using https://openrouter.ai/workspaces/default/keys/5d2aecfc9d5090f6216422123daf49c309417742fd204f5f594ad337e63f6ab6 $5.01 of $5.00 u",
-   "at": "2026-11-16T19:48:25+01:00",
-   "checked_at": "2026-11-16T19:48:25+01:00",
-   "last_updated": "2026-11-16T19:48:25+01:00"
+   "at": "2026-11-16T20:00:22+01:00",
+   "checked_at": "2026-11-16T20:00:22+01:00",
+   "last_updated": "2026-11-16T20:00:22+01:00"
   },
   {
    "route": "OpenRouter Ionstream Flex",
@@ -613,14 +613,14 @@
    ],
    "http_status": 403,
    "ttft_s": null,
-   "total_s": 0.13,
+   "total_s": 0.16,
    "runs": 1,
    "tool_call_ok": false,
    "verdict": "unreachable",
    "error": "{\"error\":{\"message\":\"Key limit exceeded (monthly limit). Manage it using https://openrouter.ai/workspaces/default/keys/5d2aecfc9d5090f6216422123daf49c309417742fd204f5f594ad337e63f6ab6 $5.01 of $5.00 u",
-   "at": "2026-11-16T19:48:25+01:00",
-   "checked_at": "2026-11-16T19:48:25+01:00",
-   "last_updated": "2026-11-16T19:48:25+01:00"
+   "at": "2026-11-16T20:00:22+01:00",
+   "checked_at": "2026-11-16T20:00:22+01:00",
+   "last_updated": "2026-11-16T20:00:22+01:00"
   },
   {
    "route": "OpenRouter Particle AI Flex",
@@ -635,14 +635,14 @@
    ],
    "http_status": 403,
    "ttft_s": null,
-   "total_s": 0.14,
+   "total_s": 0.13,
    "runs": 1,
    "tool_call_ok": false,
    "verdict": "unreachable",
    "error": "{\"error\":{\"message\":\"Key limit exceeded (monthly limit). Manage it using https://openrouter.ai/workspaces/default/keys/5d2aecfc9d5090f6216422123daf49c309417742fd204f5f594ad337e63f6ab6 $5.01 of $5.00 u",
-   "at": "2026-11-16T19:48:25+01:00",
-   "checked_at": "2026-11-16T19:48:25+01:00",
-   "last_updated": "2026-11-16T19:48:25+01:00"
+   "at": "2026-11-16T20:00:23+01:00",
+   "checked_at": "2026-11-16T20:00:23+01:00",
+   "last_updated": "2026-11-16T20:00:23+01:00"
   },
   {
    "route": "AMD Token Lab (free dev credits)",
@@ -655,16 +655,16 @@
     null,
     null
    ],
-   "http_status": 200,
+   "http_status": 429,
    "ttft_s": null,
-   "total_s": 3.15,
+   "total_s": 0.63,
    "runs": 1,
-   "tool_call_ok": true,
-   "verdict": "usable",
-   "error": null,
-   "at": "2026-11-16T19:48:28+01:00",
-   "checked_at": "2026-11-16T19:48:28+01:00",
-   "last_updated": "2026-11-16T19:48:28+01:00"
+   "tool_call_ok": false,
+   "verdict": "throttled",
+   "error": "{\"error\":{\"message\":\"Model 'DeepSeek-V4.1-Flash' is at capacity; please retry later or use another model\",\"type\":\"rate_limit_error\",\"code\":\"model_concurrency_rate_limit_exceeded\"}}",
+   "at": "2026-11-16T20:00:23+01:00",
+   "checked_at": "2026-11-16T20:00:23+01:00",
+   "last_updated": "2026-11-16T20:00:23+01:00"
   },
   {
    "route": "Nous Portal (undated deepseek-v4.1-flash)",
@@ -679,14 +679,14 @@
    ],
    "http_status": 402,
    "ttft_s": null,
-   "total_s": 0.62,
+   "total_s": 0.42,
    "runs": 1,
    "tool_call_ok": false,
    "verdict": "unreachable",
    "error": "{\"status\":402,\"message\":\"Insufficient available credits for this inference request. Add credits or lower the requested maximum output tokens.\"}",
-   "at": "2026-11-16T19:48:29+01:00",
-   "checked_at": "2026-11-16T19:48:29+01:00",
-   "last_updated": "2026-11-16T19:48:29+01:00"
+   "at": "2026-11-16T20:00:24+01:00",
+   "checked_at": "2026-11-16T20:00:24+01:00",
+   "last_updated": "2026-11-16T20:00:24+01:00"
   },
   {
    "route": "Google AI Studio (free tier)",
@@ -701,14 +701,14 @@
    ],
    "http_status": 429,
    "ttft_s": null,
-   "total_s": 0.36,
+   "total_s": 0.43,
    "runs": 1,
    "tool_call_ok": false,
    "verdict": "throttled",
    "error": "[{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/d",
-   "at": "2026-11-16T19:48:29+01:00",
-   "checked_at": "2026-11-16T19:48:29+01:00",
-   "last_updated": "2026-11-16T19:48:29+01:00"
+   "at": "2026-11-16T20:00:24+01:00",
+   "checked_at": "2026-11-16T20:00:24+01:00",
+   "last_updated": "2026-11-16T20:00:24+01:00"
   },
   {
    "route": "xAI OAuth (Grok plan)",
@@ -721,16 +721,16 @@
     0.0,
     null
    ],
-   "http_status": 200,
+   "http_status": null,
    "ttft_s": null,
-   "total_s": 1.02,
+   "total_s": 120.08,
    "runs": 1,
-   "tool_call_ok": true,
-   "verdict": "usable",
-   "error": null,
-   "at": "2026-11-16T19:48:30+01:00",
-   "checked_at": "2026-11-16T19:48:30+01:00",
-   "last_updated": "2026-11-16T19:48:30+01:00"
+   "tool_call_ok": false,
+   "verdict": "unreachable",
+   "error": "TimeoutError: The read operation timed out",
+   "at": "2026-11-16T20:02:24+01:00",
+   "checked_at": "2026-11-16T20:02:24+01:00",
+   "last_updated": "2026-11-16T20:02:24+01:00"
   },
   {
    "route": "Vertex AI (ADC, GCP credit)",
@@ -745,20 +745,21 @@
    ],
    "http_status": 200,
    "ttft_s": null,
-   "total_s": 1.15,
+   "total_s": 1.14,
    "runs": 1,
    "tool_call_ok": true,
    "verdict": "usable",
    "error": null,
-   "at": "2026-11-16T19:48:34+01:00",
-   "checked_at": "2026-11-16T19:48:34+01:00",
-   "last_updated": "2026-11-16T19:48:34+01:00"
+   "at": "2026-11-16T20:02:32+01:00",
+   "checked_at": "2026-11-16T20:02:32+01:00",
+   "last_updated": "2026-11-16T20:02:32+01:00"
   }
  ],
  "price_disagreements": [],
  "proposals": [
   "OpenRouter key is over its monthly spend cap (403 'Key limit exceeded', $5.01 of $5.00). Every openrouter-pinned route (river, ionstream/flex, particle flex) is dead until the cap is raised or resets. root, pal and alucord are on this key.",
   "Nous Portal has no credits (402). It is the last fallback rung on every home, so either top it up or replace that rung with a route that answers.",
-  "Google AI Studio free tier is rate-limited (429 quota). workie's primary is on it."
+  "Google AI Studio free tier is rate-limited (429 quota). workie's primary is on it.",
+  "AMD Token Lab is intermittently at capacity (429). Consider a second free-credit source or move the 7 tokenlab homes' primary to a billable route during busy hours."
  ]
 }
