@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-25T19:44:36+01:00",
+ "generated_at": "2026-11-26T12:07:54+01:00",
  "owner": "hermes-model-info",
  "counterpart_file": "model.json",
  "public_url": "https://raw.githubusercontent.com/okkieokkals/model-market/main/hermes.json",
@@ -11,22 +11,22 @@
   "measured_costs": "summed from each profile's state.db session_model_usage; estimated_cost_usd is the provider LIST rate, not the bill"
  },
  "registry": {
-  "models": 1075,
-  "routes": 2043,
+  "models": 1077,
+  "routes": 2041,
   "scored_models": 30,
-  "generated": "2026-11-24T16:27:51+00:00",
+  "generated": "2026-11-25T18:44:22+00:00",
   "sources": {
    "hermes_index": 18,
    "tbench": 67,
    "respan": 957,
    "openrouter": 470,
-   "nous": 408,
+   "nous": 405,
    "zen": 108,
    "telnyx": 12,
    "gemini": 16
   },
-  "checked_at": "2026-11-25T19:44:36+01:00",
-  "last_updated": "2026-11-25T19:44:36+01:00"
+  "checked_at": "2026-11-26T12:07:54+01:00",
+  "last_updated": "2026-11-26T12:07:54+01:00"
  },
  "fleet": [
   {
@@ -37,7 +37,7 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": null,
-   "checked_at": "2026-11-25T19:44:36+01:00",
+   "checked_at": "2026-11-26T12:07:54+01:00",
    "last_updated": "2026-11-25T19:44:36+01:00"
   },
   {
@@ -48,7 +48,7 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": null,
-   "checked_at": "2026-11-25T19:44:36+01:00",
+   "checked_at": "2026-11-26T12:07:54+01:00",
    "last_updated": "2026-11-25T19:44:36+01:00"
   },
   {
@@ -59,7 +59,7 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": null,
-   "checked_at": "2026-11-25T19:44:36+01:00",
+   "checked_at": "2026-11-26T12:07:54+01:00",
    "last_updated": "2026-11-25T19:44:36+01:00"
   },
   {
@@ -70,8 +70,8 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": true,
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "profile": "dealer",
@@ -81,8 +81,8 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": true,
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "profile": "dsworkie",
@@ -92,8 +92,8 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": true,
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "profile": "model-info",
@@ -103,8 +103,8 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": true,
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "profile": "pal",
@@ -114,8 +114,8 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": true,
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "profile": "pcrawl",
@@ -125,8 +125,8 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": true,
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "profile": "second-brain",
@@ -136,8 +136,8 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": true,
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "profile": "seer",
@@ -147,8 +147,8 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": true,
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "profile": "workie",
@@ -158,8 +158,8 @@
    "fallbacks": [],
    "fallback_count": 0,
    "probe_ok": true,
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   }
  ],
  "measured_costs": [
@@ -174,8 +174,8 @@
    "cache_hit": 0.8477,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -188,8 +188,8 @@
    "cache_hit": 0.9109,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "google/gemini-4-hydrogen",
@@ -202,8 +202,8 @@
    "cache_hit": 0.412,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "deepseek-v4.1-flash-1017",
@@ -216,8 +216,8 @@
    "cache_hit": 0.748,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "openai/gpt-6.1-sol",
@@ -230,8 +230,8 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -244,8 +244,8 @@
    "cache_hit": 0.9697,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -258,8 +258,8 @@
    "cache_hit": 0.0499,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "deepseek-v4.1-flash-1017",
@@ -272,22 +272,36 @@
    "cache_hit": 0.9488,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "grok-4.7",
    "route": "xai-oauth",
    "usd_per_task": 0.0,
    "usd_total": 0.0,
-   "n_tasks": 307,
-   "input_tokens": 3855490,
-   "output_tokens": 334691,
-   "cache_hit": 0.9248,
+   "n_tasks": 343,
+   "input_tokens": 4127503,
+   "output_tokens": 373122,
+   "cache_hit": 0.9224,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
+  },
+  {
+   "model": "DeepSeek-V4.1-Flash",
+   "route": "custom",
+   "usd_per_task": 0.0,
+   "usd_total": 0.0,
+   "n_tasks": 114,
+   "input_tokens": 642139,
+   "output_tokens": 52413,
+   "cache_hit": 0.9221,
+   "window": "last 7d",
+   "cost_source": "provider list rate (estimated_cost_usd), not the bill",
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "deepseek-v4.1-flash",
@@ -300,8 +314,8 @@
    "cache_hit": 0.8591,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "deepseek-v4.1-flash-1017",
@@ -314,22 +328,8 @@
    "cache_hit": 0.049,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
-  },
-  {
-   "model": "DeepSeek-V4.1-Flash",
-   "route": "custom",
-   "usd_per_task": 0.0,
-   "usd_total": 0.0,
-   "n_tasks": 59,
-   "input_tokens": 412980,
-   "output_tokens": 24941,
-   "cache_hit": 0.9361,
-   "window": "last 7d",
-   "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "deepseek/deepseek-v4.1-flash-1017",
@@ -342,8 +342,8 @@
    "cache_hit": 0.0665,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "model": "DeepSeek-V4.1-Flash",
@@ -356,18 +356,18 @@
    "cache_hit": 0.0,
    "window": "last 7d",
    "cost_source": "provider list rate (estimated_cost_usd), not the bill",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   }
  ],
- "respan_spend_today_usd": 0.00013,
+ "respan_spend_today_usd": 4.5e-05,
  "probes": [
   {
    "route": "Respan (60% gateway discount)",
    "model": "deepseek/deepseek-v4.1-flash-1017",
    "provider": "respan",
    "pin": null,
-   "price_per_task_usd": 0.3996,
+   "price_per_task_usd": 1.4707,
    "price": [
     null,
     null,
@@ -375,14 +375,14 @@
    ],
    "http_status": 200,
    "ttft_s": null,
-   "total_s": 2.06,
+   "total_s": 1.09,
    "runs": 1,
    "tool_call_ok": true,
    "verdict": "usable",
    "error": null,
-   "at": "2026-11-25T19:44:25+01:00",
-   "checked_at": "2026-11-25T19:44:25+01:00",
-   "last_updated": "2026-11-25T19:44:25+01:00"
+   "at": "2026-11-26T12:07:45+01:00",
+   "checked_at": "2026-11-26T12:07:45+01:00",
+   "last_updated": "2026-11-26T12:07:45+01:00"
   },
   {
    "route": "OpenRouter River",
@@ -397,14 +397,14 @@
    ],
    "http_status": 200,
    "ttft_s": null,
-   "total_s": 0.64,
+   "total_s": 0.78,
    "runs": 1,
    "tool_call_ok": true,
    "verdict": "usable",
    "error": null,
-   "at": "2026-11-25T19:44:26+01:00",
-   "checked_at": "2026-11-25T19:44:26+01:00",
-   "last_updated": "2026-11-25T19:44:26+01:00"
+   "at": "2026-11-26T12:07:46+01:00",
+   "checked_at": "2026-11-26T12:07:46+01:00",
+   "last_updated": "2026-11-26T12:07:46+01:00"
   },
   {
    "route": "OpenRouter Ionstream Flex",
@@ -423,32 +423,32 @@
    "runs": 1,
    "tool_call_ok": false,
    "verdict": "unreachable",
-   "error": "{\"error\":{\"message\":\"No allowed providers are available for the selected model. Providers serving deepseek/deepseek-v4.1-flash-20261017: particle-ai, wafer, sail-research, ambient, open-inference, pea",
-   "at": "2026-11-25T19:44:26+01:00",
-   "checked_at": "2026-11-25T19:44:26+01:00",
-   "last_updated": "2026-11-25T19:44:26+01:00"
+   "error": "{\"error\":{\"message\":\"No allowed providers are available for the selected model. Providers serving deepseek/deepseek-v4.1-flash-20261017: particle-ai, wafer, sail-research, primeintellect, ambient, ope",
+   "at": "2026-11-26T12:07:46+01:00",
+   "checked_at": "2026-11-26T12:07:46+01:00",
+   "last_updated": "2026-11-26T12:07:46+01:00"
   },
   {
    "route": "OpenRouter Particle AI Flex",
    "model": "deepseek/deepseek-v4.1-flash-1017",
    "provider": "openrouter",
    "pin": "particle-ai/us/flex",
-   "price_per_task_usd": 0.279,
+   "price_per_task_usd": 0.3379,
    "price": [
     null,
     null,
-    0.001
+    0.003
    ],
    "http_status": 200,
    "ttft_s": null,
-   "total_s": 0.42,
+   "total_s": 0.45,
    "runs": 1,
    "tool_call_ok": true,
    "verdict": "usable",
    "error": null,
-   "at": "2026-11-25T19:44:27+01:00",
-   "checked_at": "2026-11-25T19:44:27+01:00",
-   "last_updated": "2026-11-25T19:44:27+01:00"
+   "at": "2026-11-26T12:07:46+01:00",
+   "checked_at": "2026-11-26T12:07:46+01:00",
+   "last_updated": "2026-11-26T12:07:46+01:00"
   },
   {
    "route": "AMD Token Lab (free dev credits)",
@@ -463,14 +463,14 @@
    ],
    "http_status": 200,
    "ttft_s": null,
-   "total_s": 1.44,
+   "total_s": 1.32,
    "runs": 1,
    "tool_call_ok": true,
    "verdict": "usable",
    "error": null,
-   "at": "2026-11-25T19:44:28+01:00",
-   "checked_at": "2026-11-25T19:44:28+01:00",
-   "last_updated": "2026-11-25T19:44:28+01:00"
+   "at": "2026-11-26T12:07:47+01:00",
+   "checked_at": "2026-11-26T12:07:47+01:00",
+   "last_updated": "2026-11-26T12:07:47+01:00"
   },
   {
    "route": "Nous Portal (undated deepseek-v4.1-flash)",
@@ -483,16 +483,16 @@
     null,
     0.004
    ],
-   "http_status": 200,
+   "http_status": 401,
    "ttft_s": null,
-   "total_s": 0.69,
+   "total_s": 0.12,
    "runs": 1,
-   "tool_call_ok": true,
-   "verdict": "usable",
-   "error": null,
-   "at": "2026-11-25T19:44:29+01:00",
-   "checked_at": "2026-11-25T19:44:29+01:00",
-   "last_updated": "2026-11-25T19:44:29+01:00"
+   "tool_call_ok": false,
+   "verdict": "unreachable",
+   "error": "{\"status\":401,\"message\":\"Your API key is invalid, blocked or out of funds. Please go visit the portal to sort that out: https://portal.nousresearch.com \"}",
+   "at": "2026-11-26T12:07:47+01:00",
+   "checked_at": "2026-11-26T12:07:47+01:00",
+   "last_updated": "2026-11-26T12:07:47+01:00"
   },
   {
    "route": "Google AI Studio (free tier)",
@@ -507,14 +507,14 @@
    ],
    "http_status": 503,
    "ttft_s": null,
-   "total_s": 5.51,
+   "total_s": 4.59,
    "runs": 1,
    "tool_call_ok": false,
    "verdict": "unreachable",
    "error": "[{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
-   "at": "2026-11-25T19:44:34+01:00",
-   "checked_at": "2026-11-25T19:44:34+01:00",
-   "last_updated": "2026-11-25T19:44:34+01:00"
+   "at": "2026-11-26T12:07:52+01:00",
+   "checked_at": "2026-11-26T12:07:52+01:00",
+   "last_updated": "2026-11-26T12:07:52+01:00"
   },
   {
    "route": "xAI OAuth (Grok plan)",
@@ -534,9 +534,9 @@
    "tool_call_ok": false,
    "verdict": "unreachable",
    "error": "no credential",
-   "at": "2026-11-25T19:44:34+01:00",
-   "checked_at": "2026-11-25T19:44:34+01:00",
-   "last_updated": "2026-11-25T19:44:34+01:00"
+   "at": "2026-11-26T12:07:52+01:00",
+   "checked_at": "2026-11-26T12:07:52+01:00",
+   "last_updated": "2026-11-26T12:07:52+01:00"
   },
   {
    "route": "Vertex AI (ADC, GCP credit)",
@@ -551,14 +551,14 @@
    ],
    "http_status": 200,
    "ttft_s": null,
-   "total_s": 1.39,
+   "total_s": 1.36,
    "runs": 1,
    "tool_call_ok": true,
    "verdict": "usable",
    "error": null,
-   "at": "2026-11-25T19:44:36+01:00",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "at": "2026-11-26T12:07:54+01:00",
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   }
  ],
  "price_disagreements": [
@@ -578,8 +578,8 @@
    ],
    "gap_pct": 38.9,
    "note": "in/out/cache per 1M USD; >5% apart",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   },
   {
    "route": "OpenRouter River (your fleet pin)",
@@ -597,8 +597,8 @@
    ],
    "gap_pct": 38.9,
    "note": "in/out/cache per 1M USD; >5% apart",
-   "checked_at": "2026-11-25T19:44:36+01:00",
-   "last_updated": "2026-11-25T19:44:36+01:00"
+   "checked_at": "2026-11-26T12:07:54+01:00",
+   "last_updated": "2026-11-26T12:07:54+01:00"
   }
  ],
  "proposals": []
